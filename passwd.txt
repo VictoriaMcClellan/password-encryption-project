@@ -1,0 +1,9 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:system daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin user:/bin:/usr/sbin/nologin
+sys:x:3:3:system user:/dev:/usr/sbin/nologin
+jdoe:x:1000:1000:John Doe:/home/jdoe:/bin/bash
+asmith:x:1001:1001:Alice Smith:/home/asmith:/bin/bash
+mbrown:x:1002:1002:Michael Brown:/home/mbrown:/bin/zsh
+guest:x:2000:2000:Guest Account:/home/guest:/bin/bash
+backup:x:34:34:backup service:/var/backups:/usr/sbin/nologin
